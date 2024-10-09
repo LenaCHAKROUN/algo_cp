@@ -1,0 +1,13 @@
+FUNCTION voy(ch: STRING) : INTEGER
+VAR
+    ch: STRING;
+    T: CHAR :=[A,E,I,O,U,Y];
+    cont: INTEGER :=1;
+BEGIN
+    FOR (init i=0; i<=ch.length();i++) DO
+        IF (ch[i]in T) THEN
+            cont++
+        END_IF
+    END_FOR
+    Write(cont)
+END

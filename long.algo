@@ -1,0 +1,13 @@
+ALGORITHM long
+VAR
+    ch: STRING;
+    n: INTEGER :=0;
+
+BEGIN
+    FOR i FROM min TO max STEP step  DO
+        IF (str.charAt[i] !="") THEN
+            n++
+        END_IF
+    END_FOR
+    Write(n)
+END

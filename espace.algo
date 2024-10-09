@@ -1,0 +1,13 @@
+ALGORITHM mot
+VAR
+    ch: STRING;
+    cont: INTEGER :=0;
+BEGIN
+    FOR (init i=0; i<=ch.length(); i++) DO
+        IF (ch[i]=" ") THEN
+            cont++
+        END_IF
+    END_FOR
+    Write(cont)
+        
+END
